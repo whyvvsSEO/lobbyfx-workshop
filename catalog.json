@@ -1,10 +1,144 @@
 {
   "version": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "spirit-tree",
+      "title": {
+        "uk": "Дерево духів",
+        "en": "Spirit Tree",
+        "ru": "Дерево духов"
+      },
+      "type": "youtube",
+      "src": "DtE5Y5VGkjU",
+      "author": "VISUALDON",
+      "tags": [
+        "nature",
+        "calm"
+      ]
+    },
+    {
+      "id": "heart-tunnel",
+      "title": {
+        "uk": "Тунель сердець",
+        "en": "Heart Tunnel",
+        "ru": "Тоннель сердец"
+      },
+      "type": "youtube",
+      "src": "7M_SyE5jJY0",
+      "author": "Officine LaLa",
+      "tags": [
+        "pink",
+        "aesthetic"
+      ]
+    },
+    {
+      "id": "gargantua",
+      "title": {
+        "uk": "Гаргантюа — чорна діра",
+        "en": "Gargantua black hole",
+        "ru": "Гаргантюа — чёрная дыра"
+      },
+      "type": "youtube",
+      "src": "gU4vSEZwiyE",
+      "author": "Tech Aadi",
+      "tags": [
+        "space"
+      ]
+    },
+    {
+      "id": "falling-angel",
+      "title": {
+        "uk": "Падший ангел",
+        "en": "Falling Angel",
+        "ru": "Падший ангел"
+      },
+      "type": "youtube",
+      "src": "u6s8Q1NkVzk",
+      "author": "Your Live Wallpaper",
+      "tags": [
+        "art",
+        "dark"
+      ]
+    },
+    {
+      "id": "black-angel",
+      "title": {
+        "uk": "Чорний ангел",
+        "en": "Black Angel",
+        "ru": "Чёрный ангел"
+      },
+      "type": "youtube",
+      "src": "1-cPgr5qpf8",
+      "author": "Walls Live Hub",
+      "tags": [
+        "art",
+        "dark"
+      ]
+    },
+    {
+      "id": "samurai-autumn",
+      "title": {
+        "uk": "Самурай восени",
+        "en": "Samurai Autumn",
+        "ru": "Самурай осенью"
+      },
+      "type": "youtube",
+      "src": "fKcF32dmcDk",
+      "author": "LoveLiveWallpaper",
+      "tags": [
+        "anime",
+        "samurai"
+      ]
+    },
+    {
+      "id": "samurai-warrior",
+      "title": {
+        "uk": "Самурай-воїн",
+        "en": "Samurai Warrior",
+        "ru": "Самурай-воин"
+      },
+      "type": "youtube",
+      "src": "9OHzW1ZPZnM",
+      "author": "Jinx Live",
+      "tags": [
+        "samurai",
+        "red"
+      ]
+    },
+    {
+      "id": "trust",
+      "title": {
+        "uk": "Довіра",
+        "en": "Trust",
+        "ru": "Доверие"
+      },
+      "type": "youtube",
+      "src": "Tz2HwwySbM4",
+      "author": "the blue",
+      "tags": [
+        "minimal"
+      ]
+    },
+    {
+      "id": "white-black",
+      "title": {
+        "uk": "Біле й чорне",
+        "en": "White and Black",
+        "ru": "Белое и чёрное"
+      },
+      "type": "youtube",
+      "src": "R8gGUhfsEo8",
+      "author": "$creensavers 4 Free",
+      "tags": [
+        "minimal",
+        "dark"
+      ]
+    }
+  ],
   "themes": [
     {
       "id": "kitty",
-      "version": 1,
+      "version": 3,
       "title": {
         "uk": "Котики",
         "en": "Kitties",
@@ -27,7 +161,18 @@
         "kitty-btn.webp",
         "kitty-cat.webp"
       ],
-      "playText": "Uwu<3"
+      "playText": "Uwu<3",
+      "background": {
+        "type": "youtube",
+        "src": "7M_SyE5jJY0",
+        "label": "Heart Tunnel",
+        "title": {
+          "uk": "Тунель сердець",
+          "en": "Heart Tunnel",
+          "ru": "Тоннель сердец"
+        },
+        "author": "Officine LaLa"
+      }
     },
     {
       "id": "candy",
@@ -152,7 +297,7 @@
     },
     {
       "id": "sakura",
-      "version": 1,
+      "version": 2,
       "title": {
         "uk": "Сакура",
         "en": "Sakura",
@@ -173,7 +318,18 @@
         "blossom.svg",
         "petals.svg"
       ],
-      "playText": ""
+      "playText": "",
+      "background": {
+        "type": "youtube",
+        "src": "DtE5Y5VGkjU",
+        "label": "Spirit Tree",
+        "title": {
+          "uk": "Дерево духів",
+          "en": "Spirit Tree",
+          "ru": "Дерево духов"
+        },
+        "author": "VISUALDON"
+      }
     }
   ]
 }
