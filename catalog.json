@@ -3,10 +3,9 @@
   "items": [
     {
   "id": "black-hole",
-  "title": { "uk": "Чорна діра", "en": "Black Hole", "ru": "Чорная дыра" },
+  "title": { "uk": "Чорна діра", "en": "Black Hole", "ru": "Чёрная дыра" },
   "type": "video",
-  "src": "backgrounds/black-hole.mp4",
-  "thumb": "thumbs/black-hole.webp",
+  "src": "backgrounds/Black-Hole.mp4",
   "tags": ["black"]
 }
   ],
