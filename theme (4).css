@@ -1,0 +1,23 @@
+/* LobbyFX Workshop theme: Blockcraft
+   Every rule starts with "& ". Images from this folder: asset(file). */
+@import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+& body, & body *{ font-family:'Tiny5','Courier New',monospace !important; border-radius:0 !important; }
+& body{ text-shadow:2px 2px 0 rgba(0,0,0,.55); }
+& img{ image-rendering:auto !important; }
+& body, & [class*="styles__CanvasHolder"]{ background:asset(stone.png) 0 0/64px 64px repeat !important; image-rendering:pixelated; }
+& [data-bc="base"]{ background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.3)), asset(stone.png) 0 0/64px 64px repeat !important; }
+& [class*="LocalNavigationWrapper"]{ background:asset(grass.png) 0 0/64px 64px repeat-x, #4f3520 !important; border:3px solid #000 !important; box-shadow:none !important; }
+& [data-bc="panel"]{ background:rgba(30,30,34,.94) !important; border:3px solid #000 !important; box-shadow:inset 3px 3px 0 #4a4a50, inset -3px -3px 0 #141416 !important; }
+& [data-bc="slot"]{ background:#2a2a2e !important; border:2px solid #000 !important; box-shadow:inset 3px 3px 0 #141416, inset -3px -3px 0 #4a4a50 !important; }
+& [data-bc="tile"]{ background:rgba(42,42,46,.85) !important; border:3px solid #000 !important; box-shadow:inset 4px 4px 0 #141416, inset -4px -4px 0 #4a4a50 !important; }
+& [data-bc="tile"]:hover{ background:rgba(60,133,39,.35) !important; }
+& [data-bc="btn"]{ background:#6e6e74 !important; color:#fff !important; border:2px solid #000 !important; box-shadow:inset 3px 3px 0 #a5a5ab, inset -3px -3px 0 #3c3c40 !important; }
+& [data-bc="btn"]:hover{ background:#7f86b8 !important; }
+& [data-bc="btn-go"]{ background:#3c8527 !important; color:#fff !important; border:2px solid #000 !important; box-shadow:inset 3px 3px 0 #5fbf3a, inset -3px -3px 0 #24561a !important; }
+& [class*="ProgressBar__Progress"]{ background-color:#1b1b1e !important; box-shadow:0 0 0 2px #000 !important; }
+& [class*="ProgressBar__Progress"]::before{ background-image:linear-gradient(270deg,#7ee03a 0,rgba(126,224,58,.15) 100%) !important; }
+& [data-bc="xp"]{ background:linear-gradient(#c8ff7a,#7ee03a) !important; }
+& [data-bc="accent"]{ color:#55ff55 !important; }
+& [data-bc="lime"]{ color:#ffd23f !important; }
+& [data-bc="lime-bg"]{ background:#ffd23f !important; color:#1d1d1d !important; text-shadow:none !important; }
+

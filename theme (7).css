@@ -1,0 +1,26 @@
+/* LobbyFX Workshop theme: Sakura
+   Every rule starts with "& " — LobbyFX turns it into the theme scope.
+   Images from this folder: asset(file.svg). Fonts: only @import from fonts.googleapis.com. */
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700&display=swap');
+
+& body, & body *{ font-family:'M PLUS Rounded 1c','Segoe UI',sans-serif !important; }
+& [data-bc="base"]{ background:linear-gradient(180deg,#2a1422,#1a0c15) !important; }
+& [class*="NavigationSidebarHolder"], & [class*="AccountSidebarHolder"]{ background:rgba(60,24,44,.6) !important; }
+
+& [class*="LocalNavigationWrapper"]{ background:rgba(58,24,44,.92) !important; border:1px solid rgba(255,198,219,.45) !important; border-radius:16px !important; position:relative; overflow:visible !important; }
+& [class*="LocalNavigationWrapper"]::after{ content:""; position:absolute; left:24px; bottom:-14px; width:30px; height:30px; background:asset(blossom.svg) center/contain no-repeat; pointer-events:none; z-index:3; }
+
+& [data-bc="panel"]{ background:rgba(48,20,36,.86) !important; border:1px solid rgba(255,198,219,.35) !important; border-radius:16px !important; }
+& [data-bc="slot"], & [data-bc="tile"]{ background:rgba(255,198,219,.07) !important; border:1px solid rgba(255,198,219,.4) !important; border-radius:14px !important; position:relative; }
+& [data-bc="tile"]::before{ content:""; position:absolute; right:-9px; top:-9px; width:24px; height:24px; background:asset(blossom.svg) center/contain no-repeat; pointer-events:none; }
+& [data-bc="tile"]:hover{ background:rgba(255,198,219,.14) !important; }
+& [data-bc="btn"]{ background:rgba(255,198,219,.1) !important; border:1px solid rgba(255,198,219,.5) !important; color:#ffe9f1 !important; border-radius:999px !important; }
+& [data-bc="btn-go"]{ background:linear-gradient(135deg,#ff9ec2,#e86a9a) !important; color:#3a1426 !important; border-radius:999px !important; box-shadow:0 6px 20px rgba(232,106,154,.4) !important; }
+
+& [class*="ProgressBar__Progress"]::before{ background-image:linear-gradient(270deg,#ff9ec2 0,rgba(255,158,194,.15) 100%) !important; }
+& [data-bc="xp"]{ background:#ff9ec2 !important; }
+& [data-bc="accent"]{ color:#ffb3cf !important; }
+& [data-bc="lime"]{ color:#ffe9f1 !important; }
+
+& [class*="styles__CanvasHolder"]::after{ content:""; position:absolute; inset:0; background:asset(petals.svg) 0 0/320px 320px repeat; opacity:.5; pointer-events:none; z-index:2; animation:sakuraFall 30s linear infinite; }
+@keyframes sakuraFall{ to{ background-position:-320px 640px; } }

@@ -1,0 +1,179 @@
+{
+  "version": 1,
+  "items": [],
+  "themes": [
+    {
+      "id": "kitty",
+      "version": 1,
+      "title": {
+        "uk": "Котики",
+        "en": "Kitties",
+        "ru": "Котики"
+      },
+      "desc": {
+        "uk": "Неоново-рожева: котик над кнопкою пошуку й картками, котик на смузі ELO, лапки на фоні.",
+        "en": "Neon pink: a kitten over the Find match button and party cards, a kitten riding the ELO bar, paw prints.",
+        "ru": "Неоново-розовая: котик над кнопкой поиска и карточками, котик на полосе ELO, лапки на фоне."
+      },
+      "colors": [
+        "#5e0d33",
+        "#ff5fa2",
+        "#ffc2dc"
+      ],
+      "css": "themes/kitty/theme.css",
+      "assets": [
+        "pawsPattern.svg",
+        "pawsTiny.svg",
+        "kitty-btn.webp",
+        "kitty-cat.webp"
+      ],
+      "playText": "Uwu<3"
+    },
+    {
+      "id": "candy",
+      "version": 1,
+      "title": {
+        "uk": "Цукерка",
+        "en": "Candy",
+        "ru": "Конфетка"
+      },
+      "desc": {
+        "uk": "Пастельна лаванда й м’ята, зайчик над кнопкою пошуку, сердечка й зірочки.",
+        "en": "Pastel lavender and mint, a bunny over the Find match button, hearts and stars.",
+        "ru": "Пастельная лаванда и мята, зайчик над кнопкой поиска, сердечки и звёздочки."
+      },
+      "colors": [
+        "#2c2048",
+        "#cdb4ff",
+        "#a8f0d4"
+      ],
+      "css": "themes/candy/theme.css",
+      "assets": [
+        "bunnyPeek.svg",
+        "heart.svg",
+        "candyPattern.svg"
+      ],
+      "playText": ""
+    },
+    {
+      "id": "samurai",
+      "version": 1,
+      "title": {
+        "uk": "Самурай",
+        "en": "Samurai",
+        "ru": "Самурай"
+      },
+      "desc": {
+        "uk": "Чорний, червоний і золото: катана під меню, сонце й пелюстки сакури.",
+        "en": "Black, red and gold: a katana under the menu, a red sun and sakura petals.",
+        "ru": "Чёрный, красный и золото: катана под меню, солнце и лепестки сакуры."
+      },
+      "colors": [
+        "#0a0505",
+        "#c1121f",
+        "#c9a24a"
+      ],
+      "css": "themes/samurai/theme.css",
+      "assets": [
+        "katana.svg",
+        "sun.svg",
+        "petals.svg"
+      ],
+      "playText": ""
+    },
+    {
+      "id": "neon",
+      "version": 1,
+      "title": {
+        "uk": "Неон",
+        "en": "Neon",
+        "ru": "Неон"
+      },
+      "desc": {
+        "uk": "Темний кіберпанк із рожевим і блакитним світінням.",
+        "en": "Dark cyberpunk with pink and cyan glow.",
+        "ru": "Тёмный киберпанк с розовым и голубым свечением."
+      },
+      "colors": [
+        "#05040a",
+        "#ff2bd6",
+        "#2de2ff"
+      ],
+      "css": "themes/neon/theme.css",
+      "assets": [],
+      "playText": ""
+    },
+    {
+      "id": "glass",
+      "version": 1,
+      "title": {
+        "uk": "Скло",
+        "en": "Glass",
+        "ru": "Стекло"
+      },
+      "desc": {
+        "uk": "Напівпрозорі панелі з розмиттям — найкраще виглядає поверх яскравого фону.",
+        "en": "See-through blurred panels — looks best over a bright background.",
+        "ru": "Полупрозрачные панели с размытием — лучше всего смотрится поверх яркого фона."
+      },
+      "colors": [
+        "#1a1830",
+        "#8b5cf6",
+        "#5b8cff"
+      ],
+      "css": "themes/glass/theme.css",
+      "assets": [],
+      "playText": ""
+    },
+    {
+      "id": "blockcraft",
+      "version": 1,
+      "title": {
+        "uk": "Blockcraft",
+        "en": "Blockcraft",
+        "ru": "Blockcraft"
+      },
+      "desc": {
+        "uk": "Піксельні блоки, кам’яні кнопки, трава зверху й піксельний шрифт.",
+        "en": "Pixel blocks, stone buttons, grass on top and a pixel font.",
+        "ru": "Пиксельные блоки, каменные кнопки, трава сверху и пиксельный шрифт."
+      },
+      "colors": [
+        "#2b2b2f",
+        "#5fa83a",
+        "#6e6e74"
+      ],
+      "css": "themes/blockcraft/theme.css",
+      "assets": [
+        "stone.png",
+        "grass.png"
+      ],
+      "playText": ""
+    },
+    {
+      "id": "sakura",
+      "version": 1,
+      "title": {
+        "uk": "Сакура",
+        "en": "Sakura",
+        "ru": "Сакура"
+      },
+      "desc": {
+        "uk": "Сливово-рожева, квіти сакури на картках і пелюстки, що падають.",
+        "en": "Plum and pink, sakura blossoms on cards and falling petals.",
+        "ru": "Сливово-розовая, цветы сакуры на карточках и падающие лепестки."
+      },
+      "colors": [
+        "#2a1422",
+        "#ff9ec2",
+        "#ffe9f1"
+      ],
+      "css": "themes/sakura/theme.css",
+      "assets": [
+        "blossom.svg",
+        "petals.svg"
+      ],
+      "playText": ""
+    }
+  ]
+}
