@@ -1,0 +1,32 @@
+/* LobbyFX Workshop theme: Kitties
+   Every rule starts with "& ". Images from this folder: asset(file). */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;700&display=swap');
+& body, & body *{ font-family:'Comfortaa','Segoe UI',sans-serif !important; }
+& [data-bc="base"]{ background:linear-gradient(180deg,#43102c,#260818 70%,#1e0614) !important; }
+& [class*="NavigationSidebarHolder"]{ background:linear-gradient(180deg,rgba(94,13,51,.55),rgba(46,8,28,.55)) !important; box-shadow:inset -1.5px 0 0 rgba(255,95,162,.55), 6px 0 18px rgba(255,79,154,.12) !important; }
+& [class*="AccountSidebarHolder"]{ background:linear-gradient(180deg,rgba(94,13,51,.55),rgba(46,8,28,.55)) !important; box-shadow:inset 1.5px 0 0 rgba(255,95,162,.55), -6px 0 18px rgba(255,79,154,.12) !important; }
+& [class*="NavigationSidebarHolder"] svg, & [class*="AccountSidebarHolder"] svg{ color:#ffc2dc; }
+& [class*="LocalNavigationWrapper"]{ background:linear-gradient(180deg,rgba(94,13,51,.95),rgba(62,8,34,.95)) !important; border:2px solid #ff5fa2 !important; border-radius:18px !important; box-shadow:0 0 0 2px #3a0820 inset, 0 0 16px rgba(255,79,154,.45) !important; position:relative; overflow:visible !important; }
+& [data-bc="panel"]{ background:rgba(58,10,34,.86) !important; border:1.5px solid rgba(255,95,162,.55) !important; border-radius:18px !important; box-shadow:0 0 18px rgba(255,79,154,.15) !important; }
+& [data-bc="slot"]{ background:rgba(255,95,162,.08) !important; border:1.5px dashed rgba(255,143,190,.5) !important; border-radius:14px !important; }
+& [data-bc="tile"]{ background:rgba(255,95,162,.07) !important; border:1.5px solid rgba(255,95,162,.5) !important; border-radius:16px !important; position:relative; overflow:visible !important; }
+& [data-bc="tile"]::before{ content:""; position:absolute; left:50%; top:-30px; width:44px; height:37px; transform:translateX(-50%); background:asset(kitty-cat.webp) center bottom/contain no-repeat; pointer-events:none; z-index:2; }
+& [data-bc="tile"]:hover{ background:rgba(255,95,162,.16) !important; box-shadow:0 0 16px rgba(255,79,154,.35) !important; }
+& [data-bc="btn"]{ background:rgba(255,95,162,.12) !important; border:1.5px solid rgba(255,95,162,.6) !important; color:#ffe3ef !important; border-radius:999px !important; }
+& [data-bc="btn-go"]{ background:linear-gradient(180deg,#8c1a4c,#5e0d33 55%,#4a0828) !important; color:#fff !important; border:2px solid #ff5fa2 !important; border-radius:14px !important; box-shadow:0 0 14px rgba(255,79,154,.6) !important; }
+& [class*="PlayButtonWrapper__Container"], & [class*="PlayButtonWrapper__Container"] button{ overflow:visible !important; }
+& [class*="PlayButtonWrapper__Container"] button{ position:relative; isolation:isolate; background:transparent !important; border:0 !important; box-shadow:none !important; border-radius:0 !important; color:#fff !important; text-shadow:0 0 6px #ff5fa2, 0 0 14px rgba(255,79,154,.8) !important; font-weight:700 !important; }
+& [class*="PlayButtonWrapper__Container"] button::after{ content:""; position:absolute; inset:-5px -7px; border-style:solid; border-width:0 36px; border-image:asset(kitty-btn.webp) 0 87 fill / 0 36px stretch; z-index:-1; pointer-events:none; }
+& [class*="PlayButtonWrapper__Container"] button:hover::after{ filter:brightness(1.15); }
+& [class*="PlayButtonWrapper__Container"] button:disabled{ color:rgba(255,226,239,.6) !important; text-shadow:none !important; }
+& [class*="PlayButtonWrapper__Container"] button:disabled::after{ filter:grayscale(.55) brightness(.65); }
+& [class*="PlayButtonWrapper__Container"] button::before{ content:""; position:absolute; left:50%; top:-58px; width:82px; height:70px; transform:translateX(-50%); background:asset(kitty-cat.webp) center bottom/contain no-repeat; pointer-events:none; z-index:5; filter:drop-shadow(0 0 8px rgba(255,79,154,.6)); }
+& [class*="EloWidget-module"] [class*="ProgressBar__Progress"]{ background:#3a0820 !important; border:1.5px solid #ff5fa2 !important; border-radius:999px !important; overflow:visible !important; box-shadow:0 0 10px rgba(255,79,154,.35) !important; }
+& [class*="EloWidget-module"] [class*="ProgressBar__Progress"]::before{ border-radius:999px !important; background:asset(pawsTiny.svg) 0 50%/14px 10px repeat-x, linear-gradient(90deg,#ff4f8b,#e05ad6 60%,#b77cff) !important; }
+& [class*="EloWidget-module"] [class*="ProgressBar__Progress"]::after{ content:""; position:absolute; top:50%; left:var(--lfx-prog,0%); width:34px; height:29px; transform:translate(-50%,-58%); background:asset(kitty-cat.webp) center/contain no-repeat; pointer-events:none; z-index:2; filter:drop-shadow(0 0 5px rgba(255,79,154,.8)); }
+& [data-bc="xp"]{ background:linear-gradient(90deg,#ff4f8b,#b77cff) !important; }
+& [data-bc="accent"]{ color:#ff8fbe !important; text-shadow:0 0 8px rgba(255,79,154,.5); }
+& [data-bc="lime"]{ color:#ffd1e6 !important; }
+& [class*="styles__CanvasHolder"]::after{ content:""; position:absolute; inset:0; background:asset(pawsPattern.svg) 0 0/260px 260px repeat; opacity:.16; pointer-events:none; z-index:0; animation:lfxDrift 60s linear infinite; }
+@keyframes lfxDrift{ to{ background-position:260px 520px; } }
+
