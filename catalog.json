@@ -1,14 +1,6 @@
 {
   "version": 1,
-  "items": [
-    {
-  "id": "black-hole",
-  "title": { "uk": "Чорна діра", "en": "Black Hole", "ru": "Чёрная дыра" },
-  "type": "video",
-  "src": "backgrounds/Black-Hole.mp4",
-  "tags": ["black"]
-}
-  ],
+  "items": [],
   "themes": [
     {
       "id": "kitty",
